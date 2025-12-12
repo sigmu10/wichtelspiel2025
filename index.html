@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wichtelspiel Weihnachten 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #fef2f2 0%, #ffffff 50%, #f0fdf4 100%);
+            padding: 20px;
+            line-height: 1.6;
+            color: #374151;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #b91c1c;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            color: #6b7280;
+            font-style: italic;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .section-blue {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border: 2px solid #93c5fd;
+        }
+        
+        .section-green {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            border: 2px solid #86efac;
+        }
+        
+        .section-purple {
+            background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+            border: 2px solid #c084fc;
+        }
+        
+        .section-red {
+            background: white;
+            border: 4px solid #fecaca;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .section-blue h2 { color: #1e40af; }
+        .section-green h2 { color: #15803d; }
+        .section-purple h2 { color: #7e22ce; }
+        .section-red h2 { color: #15803d; }
+        
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .subsection {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .section-blue h3 { color: #1e40af; }
+        .section-green h3 { color: #15803d; }
+        .section-purple h3 { color: #7e22ce; }
+        
+        .info-box {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .fazit-box {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        .fazit-blue { background: #bfdbfe; color: #1e3a8a; }
+        .fazit-green { background: #bbf7d0; color: #14532d; }
+        .fazit-purple { background: #e9d5ff; color: #581c87; }
+        
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .topic-card {
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        
+        .topic-card h4 {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        
+        .topic-card p {
+            font-size: 0.9em;
+            color: #6b7280;
+        }
+        
+        .topic-geschichte { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); }
+        .topic-geschichte h4 { color: #92400e; }
+        
+        .topic-geo { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); }
+        .topic-geo h4 { color: #1e40af; }
+        
+        .topic-sport { background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); }
+        .topic-sport h4 { color: #065f46; }
+        
+        .topic-pop { background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%); }
+        .topic-pop h4 { color: #6b21a8; }
+        
+        .topic-2025 { background: linear-gradient(135deg, #fecaca 0%, #fca5a5 100%); }
+        .topic-2025 h4 { color: #991b1b; }
+        
+        .footer {
+            background: linear-gradient(135deg, #dc2626 0%, #16a34a 100%);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+        
+        .footer h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .subtitle {
+                font-size: 1em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .topics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎄 Wichtelspiel Weihnachten 2025 🎁</h1>
+            <p class="subtitle">Ein Quiz-basiertes Geschenkeabenteuer in drei Akten</p>
+        </div>
+
+        <!-- Overview -->
+        <div class="section section-red">
+            <h2><span class="emoji">📋</span> Spielkonzept</h2>
+            <p style="font-size: 1.1em; margin-bottom: 15px;">
+                Dieses Jahr wird das Wichteln zum spannenden Quiz-Turnier! Das Spiel umfasst 
+                <strong>fünf Themengebiete</strong> und <strong>vier Schwierigkeitsstufen</strong>, 
+                wodurch ein Spielfeld mit 20 Plätzen entsteht – auf jedem liegt ein Geschenk.
+            </p>
+            <div class="info-box">
+                <strong>🎯 Ziel:</strong> Durch clevere Platzierung, geschicktes Wissen und etwas Glück 
+                das perfekte Geschenk ergattern!
+            </div>
+        </div>
+
+        <!-- Part 1 -->
+        <div class="section section-blue">
+            <h2><span class="emoji">1️⃣</span> Teil 1: Die Vorbereitung</h2>
+            <p style="font-style: italic; margin-bottom: 20px;">Schätzfragen, Geschenke auspacken & Reihenfolge festlegen</p>
+
+            <div class="subsection">
+                <h3><span class="emoji">👥</span> Gruppenbildung</h3>
+                <p>Alle Teilnehmenden werden in <strong>fünf Gruppen</strong> aufgeteilt.</p>
+            </div>
+
+            <div class="subsection">
+                <h3><span class="emoji">🤔</span> Fünf Schätzfragen</h3>
+                <p style="margin-bottom: 10px;">
+                    Es gibt fünf Schätzfragen – jeweils eine zu jedem der fünf Themengebiete. 
+                    Alle Gruppen schätzen bei jeder Frage mit.
+                </p>
+                <div style="background: #eff6ff; padding: 12px; border-radius: 6px; font-size: 0.95em;">
+                    <strong>Nach jeder Frage:</strong> Die Gruppe mit der besten Schätzung darf ein Geschenk 
+                    auspacken und an einen beliebigen Platz (Themengebiet + Schwierigkeitsstufe) legen.
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h3><span class="emoji">💡</span> Taktik-Tipp</h3>
+                <p>
+                    Wollt ihr das Geschenk später selbst? Dann platziert es bei einem Thema, 
+                    das euch liegt! Oder wollt ihr es jemandem erschweren? Wählt ein schwieriges Thema!
+                </p>
+            </div>
+
+            <div class="subsection">
+                <h3><span class="emoji">📊</span> Punkte sammeln</h3>
+                <p>
+                    Die Spielleitung notiert die Ranglistenpunkte aller Gruppen. Die Gruppe mit den 
+                    meisten Punkten darf in Teil 2 als erstes ran.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <strong>⚠️ Wichtig:</strong> Jede Gruppe kann nur <strong>einmal</strong> ein 
+                Geschenk auspacken, spielt aber bei allen fünf Schätzfragen mit!
+            </div>
+
+            <div class="fazit-box fazit-blue">
+                ✅ Fazit Teil 1: Geschenke ausgepackt ✓ Geschenke platziert ✓ Reihenfolge festgelegt ✓
+            </div>
+        </div>
+
+        <!-- Part 2 -->
+        <div class="section section-green">
+            <h2><span class="emoji">2️⃣</span> Teil 2: Die Jagd</h2>
+            <p style="font-style: italic; margin-bottom: 20px;">Individuelle Multiple-Choice-Fragen</p>
+
+            <div class="subsection">
+                <h3><span class="emoji">🎯</span> Wie es läuft</h3>
+                <p>
+                    Nun geht es der Reihe nach durch alle Teilnehmenden (basierend auf den 
+                    Gruppenpunkten aus Teil 1). Innerhalb jeder Gruppe wird kurz gewürfelt, 
+                    wer zuerst kommt.
+                </p>
+            </div>
+
+            <div class="subsection">
+                <h3><span class="emoji">❓</span> Die Frage</h3>
+                <p>
+                    Jede Person wählt <strong>ein Themengebiet</strong> und <strong>eine Schwierigkeitsstufe</strong>. 
+                    Dann wird eine Multiple-Choice-Frage mit vier Antwortmöglichkeiten gestellt 
+                    (wie bei «Wer wird Millionär?»).
+                </p>
+            </div>
+
+            <div class="subsection">
+                <h3><span class="emoji">🎁</span> Gewinn oder nicht</h3>
+                <p>
+                    <strong>Richtig beantwortet?</strong> Das Geschenk gehört dir!<br/>
+                    <strong>Falsch beantwortet?</strong> Das Geschenk bleibt liegen – aber du bekommst 
+                    in Teil 3 eine zweite Chance!
+                </p>
+            </div>
+
+            <div class="fazit-box fazit-green">
+                ✅ Fazit Teil 2: Geschenke für die Quiz-Champions verteilt!
+            </div>
+        </div>
+
+        <!-- Part 3 -->
+        <div class="section section-purple">
+            <h2><span class="emoji">3️⃣</span> Teil 3: Die zweite Chance</h2>
+            <p style="font-style: italic; margin-bottom: 20px;">Offene Fragen für alle ohne Geschenk</p>
+
+            <div class="subsection">
+                <h3><span class="emoji">🏃</span> Schnelligkeit zählt!</h3>
+                <p>
+                    Alle, die in Teil 2 kein Geschenk bekommen haben, dürfen jetzt 
+                    bei offenen Fragen mitmachen.
+                </p>
+            </div>
+
+            <div class="subsection">
+                <h3><span class="emoji">⚡</span> Das Prinzip</h3>
+                <p>
+                    Die Spielleitung stellt offene Fragen. Wer als <strong>Erstes</strong> die 
+                    richtige Antwort gibt, darf sich eines der verbliebenen Geschenke aussuchen.
+                </p>
+            </div>
+
+            <div class="fazit-box fazit-purple">
+                ✅ Fazit Teil 3: Niemand geht leer aus – alle haben ihr Geschenk!
+            </div>
+        </div>
+
+        <!-- Topics -->
+        <div class="section">
+            <h2 style="justify-content: center; color: #374151;"><span class="emoji">🎲</span> Die fünf Themengebiete</h2>
+            <div class="topics-grid">
+                <div class="topic-card topic-geschichte">
+                    <h4>📜 Geschichte</h4>
+                    <p>Von der Antike bis zur Moderne</p>
+                </div>
+                <div class="topic-card topic-geo">
+                    <h4>🌍 Geographie & Reisen</h4>
+                    <p>Länder, Städte, Kontinente</p>
+                </div>
+                <div class="topic-card topic-sport">
+                    <h4>⚽ Sport & Spiele</h4>
+                    <p>Von Fussball bis Olympia</p>
+                </div>
+                <div class="topic-card topic-pop">
+                    <h4>🎬 Popkultur & Entertainment</h4>
+                    <p>Film, Serien, Musik</p>
+                </div>
+                <div class="topic-card topic-2025" style="grid-column: span 2;">
+                    <h4>📅 Das Jahr 2025</h4>
+                    <p>Ereignisse, die uns dieses Jahr bewegt haben</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <h3>🎅 Viel Spaß beim Wichteln! 🎄</h3>
+            <p style="font-size: 1.2em;">Möge das beste Wissen gewinnen!</p>
+        </div>
+    </div>
+</body>
+</html>
